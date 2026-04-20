@@ -1,11 +1,5 @@
-Configure a Jenkins pipeline to automate the building and deployment of a Dockerized application from GitHub.
-Jenkins Docker GitHub
 
-🐳Jenkins runs inside Docker — no Java installation needed on the host. The Docker socket is mounted so Jenkins can build and push images directly.
 
-Step 1 – Start Jenkins container
-
-bashcopy
 # Create a persistent volume for Jenkins data
 docker volume create jenkins-data
 
